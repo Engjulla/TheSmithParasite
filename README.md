@@ -9,7 +9,9 @@ With that goal, we were fiven access to a small quantity of sociodemographic, he
 
 //The score of the predictions is the percentage of instances we correctly predict, using the f1 score.//
 
-Data
+Data used 
+
+
 train_demo.csv - the training set for demographic data and the target
 
 train_health.csv - the training set for health related data
