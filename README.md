@@ -5,9 +5,9 @@ The Smith Parasite
 
 The goal is to build a predictive model that answers the question, “Who are the people more likely to suffer from the Smith Parasite?”.
 
-With that goal, we can access a small quantity of sociodemographic, health, and behavioral information obtained from the patients. We had to analyze and transform the data available as needed and apply different models to answer the defined question in a more accurate way.
+With that goal, we were fiven access to a small quantity of sociodemographic, health, and behavioral information obtained from the patients. We had to analyze and transform the data available as needed and apply different models to answer the defined question in a more accurate way.
 
-The score of the predictions is the percentage of instances we correctly predict, using the f1 score.
+//The score of the predictions is the percentage of instances we correctly predict, using the f1 score.//
 
 Data
 train_demo.csv - the training set for demographic data and the target
