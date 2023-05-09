@@ -1,74 +1,42 @@
-# TheSmithParasite
+# The Smith Parasite: Machine Learning Course Project - MDSAA-DS - Fall 2022
 
-Machine Learning Project 2022-2023
-The Smith Parasite
 
-The goal is to build a predictive model that answers the question, “Who are the people more likely to suffer from the Smith Parasite?”.
+Introduction
+A newly discovered disease, identified as the Smith Parasite, emerged in England, affecting over 5,000 people with no apparent connection between them. The most common symptoms included fever and tiredness, but some infected individuals remained asymptomatic. The virus was associated with post-disease conditions such as loss of speech, confusion, chest pain, and shortness of breath. The transmission conditions and risk factors for the disease remained unknown, but some groups appeared more prone to infection than others.
 
-With that goal, we were fiven access to a small quantity of sociodemographic, health, and behavioral information obtained from the patients. We had to analyze and transform the data available as needed and apply different models to answer the defined question in a more accurate way.
 
-//The score of the predictions is the percentage of instances we correctly predict, using the f1 score.//
+Objective
+The goal of our project was to build a predictive model to answer the question, "Who are the people more likely to suffer from the Smith Parasite?". Our team had access to a small quantity of sociodemographic, health, and behavioral information from patients. As data scientists, we were tasked with analyzing and transforming the available data, and applying different models to accurately answer the defined question.
 
-Data used 
+
+Datasets
+We had access to two different datasets:
+
+
+Training Set: This set was used to build our machine learning models. It included the ground truth for each patient, i.e., if the patient had the disease (Disease = 1) or not (Disease = 0). The training set was composed of:
 
 
 train_demo.csv - the training set for demographic data and the target
 
-train_health.csv - the training set for health related data
 
-train_habits.csv - the training set for habits related data
+train_health.csv - the training set for health-related data
+
+
+train_habits.csv - the training set for habits-related data
+
+
+Test Set: This set was used to evaluate how well our model performed on unseen data. We didn't have access to the ground truth for this set, and our goal was to predict the disease status (0 or 1) using the model we created with the training set. The test set was composed of:
 
 test_demo.csv - the test set for demographic data
 
-test_health.csv - the test set for health related data
 
-test_habits.csv - the test set for habits related data
+test_health.csv - the test set for health-related data
 
-Submission
-sampleSubmission.csv - a sample submission file in the correct format
 
-Data fields
-Sociodemographic Data
-PatientID - The unique identifier of the patient
+test_habits.csv - the test set for habits-related data
 
-Birth_Year - Patient Year of Birth
 
-Name - Name of the patient
+Evaluation
 
-Region - Patient Living Region
 
-Education - Answer to the question: What is the highest grade or year of school you have?
-
-Disease - The dependent variable. If the patient has the disease (Disease = 1) or not (Disease = 0)
-
-Health Related Data
-PatientID - The unique identifier of the patient
-
-Height - Patient's height
-
-Weight - Patient's weight
-
-Checkup - Answer to the question: How long has it been since you last visited a doctor for a routine Checkup? [A routine Checkup is a general physical exam, not an exam for a specific injury, illness, or condition.]
-
-Diabetes - Answer to the question: (Ever told) you or your direct relatives have diabetes?
-
-High_Cholesterol - Cholesterol value
-
-Blood_Pressure - Blood Pressure in rest value
-
-Mental Health - Answer to the question: During the past 30 days, for about how many days did poor physical or mental health keep you from doing your usual activities, such as self-care, work, or recreation?
-
-Physical Health - Answer to the question: Thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good to the point where it was difficult to walk?
-
-Habits Related Data
-PatientID - The unique identifier of the patient
-
-Smoking_Habit - Answer to the question: Do you smoke more than 10 cigars daily?
-
-Drinking_Habit - Answer to the question: What is your behavior concerning alcohol consumption?
-
-Exercise - Answer to the question: Do you exercise (more than 30 minutes) 3 times per week or more?
-
-Fruit_Habit - Answer to the question: How many portions of fruits do you consume per day?
-
-Water_Habit - Answer to the question: How much water do you drink per day?
+Our team's predictions were scored based on the percentage of instances we correctly predicted, using the f1 score. Our aim was to create a model that performed well on the test set and provided valuable insights into the factors influencing the likelihood of suffering from the Smith Parasite.
