@@ -88,7 +88,7 @@ test_health.csv - the test set for health-related data
 test_habits.csv - the test set for habits-related data
 
 
-#  Evaluation
+# Evaluation
 
 
 Our team's predictions were scored based on the percentage of instances we correctly predicted, using the f1 score. Our aim was to create a model that performed well on the test set and provided valuable insights into the factors influencing the likelihood of suffering from the Smith Parasite.
