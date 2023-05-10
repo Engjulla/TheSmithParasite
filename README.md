@@ -1,15 +1,19 @@
 # The Smith Parasite: Machine Learning Course Project - MDSAA-DS - Fall 2022
 
 
-Introduction
+#Introduction
+
+
 A newly discovered disease, identified as the Smith Parasite, emerged in England, affecting over 5,000 people with no apparent connection between them. The most common symptoms included fever and tiredness, but some infected individuals remained asymptomatic. The virus was associated with post-disease conditions such as loss of speech, confusion, chest pain, and shortness of breath. The transmission conditions and risk factors for the disease remained unknown, but some groups appeared more prone to infection than others.
 
 
-Objective
+# Objective
+
+
 The goal of our project was to build a predictive model to answer the question, "Who are the people more likely to suffer from the Smith Parasite?". Our team had access to a small quantity of sociodemographic, health, and behavioral information from patients. As data scientists, we were tasked with analyzing and transforming the available data, and applying different models to accurately answer the defined question.
 
 
-Datasets
+# Datasets
 We had access to two different datasets:
 
 
